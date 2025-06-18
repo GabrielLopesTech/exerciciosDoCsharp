@@ -13,7 +13,7 @@ namespace ExerciciosLogica
 
         public ExemploMetodoConstrutor()
         {
-            model = "Mustang";
+            model = "Opala 6 CC";
         }
 
         public static void Main(string[] args)
