@@ -3,25 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Schema;
 
 namespace ExerciciosLogica
 {
-    internal class ExemploMetodoConstrutor
+    internal class ExemploParametrosMetodoConstrutor
     {
         public string model;
 
-        public ExemploMetodoConstrutor()
+        public ExemploParametrosMetodoConstrutor(string modelName)
         {
-            model = "Opala 6 CC";
+            model = modelName;
         }
 
         public static void Main(string[] args)
         {
-            ExemploMetodoConstrutor Ford = new ExemploMetodoConstrutor();
+            ExemploParametrosMetodoConstrutor Ford = new ExemploParametrosMetodoConstrutor("Mustang");
             Console.WriteLine(Ford.model);
         }
-
-
     }
 }
